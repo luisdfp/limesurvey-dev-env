@@ -1,0 +1,30 @@
+limesurvey:
+  build: .
+  ports:
+    - "8080:80"
+  volumes:
+    - mysql:/var/lib/mysql
+    - upload:/app/upload  
+  links:
+    - mysql
+mysql:
+  image: mariadb:5.5.56
+  ports:
+    - "3333:3306"
+  volumes:
+  - ./db_dump:/docker-entrypoint-initdb.d
+  environment:
+    MYSQL_ROOT_PASSWORD: 123
+    MYSQL_DATABASE: limesurvey
+phpmyadmin:
+  image: phpmyadmin/phpmyadmin
+  restart: always
+  links:
+    - mysql    
+  ports:
+    - 8183:80
+  environment:
+    PMA_HOST: mysql
+    PMA_PORT: 3306
+    PMA_USER: root
+    PMA_PASSWORD: 123
