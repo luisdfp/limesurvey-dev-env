@@ -4,7 +4,8 @@ limesurvey:
     - "8080:80"
   volumes:
     - mysql:/var/lib/mysql
-    - upload:/app/upload  
+    - upload:/app/upload
+    - ./experiments:/app/experiments  
   links:
     - mysql
 mysql:
