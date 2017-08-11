@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document>
  <LimeSurveyDocType>Survey</LimeSurveyDocType>
- <DBVersion>261</DBVersion>
+ <DBVersion>260</DBVersion>
  <languages>
   <language>de</language>
  </languages>
@@ -17,7 +17,34 @@
   </fields>
   <rows>
    <row>
-    <qid><![CDATA[141]]></qid>
+    <qid><![CDATA[3519]]></qid>
+    <code><![CDATA[0]]></code>
+    <answer><![CDATA[ weiblich]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[de]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[3519]]></qid>
+    <code><![CDATA[1]]></code>
+    <answer><![CDATA[männlich]]></answer>
+    <sortorder><![CDATA[2]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[de]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[3519]]></qid>
+    <code><![CDATA[2]]></code>
+    <answer><![CDATA[anderes]]></answer>
+    <sortorder><![CDATA[3]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[de]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+   </row>
+   <row>
+    <qid><![CDATA[3522]]></qid>
     <code><![CDATA[1]]></code>
     <answer><![CDATA[stimme gar nicht zu]]></answer>
     <sortorder><![CDATA[1]]></sortorder>
@@ -26,7 +53,7 @@
     <scale_id><![CDATA[0]]></scale_id>
    </row>
    <row>
-    <qid><![CDATA[141]]></qid>
+    <qid><![CDATA[3522]]></qid>
     <code><![CDATA[2]]></code>
     <answer/>
     <sortorder><![CDATA[2]]></sortorder>
@@ -35,7 +62,7 @@
     <scale_id><![CDATA[0]]></scale_id>
    </row>
    <row>
-    <qid><![CDATA[141]]></qid>
+    <qid><![CDATA[3522]]></qid>
     <code><![CDATA[3]]></code>
     <answer/>
     <sortorder><![CDATA[3]]></sortorder>
@@ -44,7 +71,7 @@
     <scale_id><![CDATA[0]]></scale_id>
    </row>
    <row>
-    <qid><![CDATA[141]]></qid>
+    <qid><![CDATA[3522]]></qid>
     <code><![CDATA[4]]></code>
     <answer/>
     <sortorder><![CDATA[4]]></sortorder>
@@ -53,7 +80,7 @@
     <scale_id><![CDATA[0]]></scale_id>
    </row>
    <row>
-    <qid><![CDATA[141]]></qid>
+    <qid><![CDATA[3522]]></qid>
     <code><![CDATA[5]]></code>
     <answer/>
     <sortorder><![CDATA[5]]></sortorder>
@@ -62,7 +89,7 @@
     <scale_id><![CDATA[0]]></scale_id>
    </row>
    <row>
-    <qid><![CDATA[141]]></qid>
+    <qid><![CDATA[3522]]></qid>
     <code><![CDATA[6]]></code>
     <answer/>
     <sortorder><![CDATA[6]]></sortorder>
@@ -71,7 +98,7 @@
     <scale_id><![CDATA[0]]></scale_id>
    </row>
    <row>
-    <qid><![CDATA[141]]></qid>
+    <qid><![CDATA[3522]]></qid>
     <code><![CDATA[7]]></code>
     <answer><![CDATA[stimme völlig zu]]></answer>
     <sortorder><![CDATA[7]]></sortorder>
@@ -79,30 +106,17 @@
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
    </row>
-  </rows>
- </answers>
- <conditions>
-  <fields>
-   <fieldname>cid</fieldname>
-   <fieldname>qid</fieldname>
-   <fieldname>cqid</fieldname>
-   <fieldname>cfieldname</fieldname>
-   <fieldname>method</fieldname>
-   <fieldname>value</fieldname>
-   <fieldname>scenario</fieldname>
-  </fields>
-  <rows>
    <row>
-    <cid><![CDATA[5]]></cid>
-    <qid><![CDATA[139]]></qid>
-    <cqid><![CDATA[143]]></cqid>
-    <cfieldname><![CDATA[214623X12X143]]></cfieldname>
-    <method><![CDATA[==]]></method>
-    <value><![CDATA[Y]]></value>
-    <scenario><![CDATA[1]]></scenario>
+    <qid><![CDATA[3611]]></qid>
+    <code><![CDATA[1]]></code>
+    <answer><![CDATA[Ja, ich habe die Eingangsinformationen gelesen und akzeptiere diese.]]></answer>
+    <sortorder><![CDATA[1]]></sortorder>
+    <assessment_value><![CDATA[0]]></assessment_value>
+    <language><![CDATA[de]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
    </row>
   </rows>
- </conditions>
+ </answers>
  <groups>
   <fields>
    <fieldname>gid</fieldname>
@@ -116,19 +130,9 @@
   </fields>
   <rows>
    <row>
-    <gid><![CDATA[12]]></gid>
+    <gid><![CDATA[206]]></gid>
     <sid><![CDATA[214623]]></sid>
     <group_name><![CDATA[Deskriptive Daten]]></group_name>
-    <group_order><![CDATA[1]]></group_order>
-    <description/>
-    <language><![CDATA[de]]></language>
-    <randomization_group/>
-    <grelevance/>
-   </row>
-   <row>
-    <gid><![CDATA[13]]></gid>
-    <sid><![CDATA[214623]]></sid>
-    <group_name><![CDATA[Bindung]]></group_name>
     <group_order><![CDATA[2]]></group_order>
     <description/>
     <language><![CDATA[de]]></language>
@@ -136,20 +140,30 @@
     <grelevance/>
    </row>
    <row>
-    <gid><![CDATA[14]]></gid>
+    <gid><![CDATA[207]]></gid>
     <sid><![CDATA[214623]]></sid>
-    <group_name><![CDATA[code]]></group_name>
-    <group_order><![CDATA[0]]></group_order>
+    <group_name><![CDATA[Bindung]]></group_name>
+    <group_order><![CDATA[3]]></group_order>
     <description/>
     <language><![CDATA[de]]></language>
     <randomization_group/>
     <grelevance/>
    </row>
    <row>
-    <gid><![CDATA[15]]></gid>
+    <gid><![CDATA[211]]></gid>
     <sid><![CDATA[214623]]></sid>
-    <group_name><![CDATA[SVO]]></group_name>
-    <group_order><![CDATA[3]]></group_order>
+    <group_name><![CDATA[code]]></group_name>
+    <group_order><![CDATA[1]]></group_order>
+    <description/>
+    <language><![CDATA[de]]></language>
+    <randomization_group/>
+    <grelevance/>
+   </row>
+   <row>
+    <gid><![CDATA[214]]></gid>
+    <sid><![CDATA[214623]]></sid>
+    <group_name><![CDATA[einverständnis]]></group_name>
+    <group_order><![CDATA[0]]></group_order>
     <description/>
     <language><![CDATA[de]]></language>
     <randomization_group/>
@@ -179,47 +193,48 @@
   </fields>
   <rows>
    <row>
-    <qid><![CDATA[139]]></qid>
+    <qid><![CDATA[3518]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[12]]></gid>
+    <gid><![CDATA[206]]></gid>
     <type><![CDATA[N]]></type>
     <title><![CDATA[alter]]></title>
-    <question><![CDATA[Bitte geben Sie hier ihr Alter ein:]]></question>
+    <question><![CDATA[Wie alt sind Sie?]]></question>
     <preg/>
     <help><![CDATA[Alter in Jahren]]></help>
+    <other><![CDATA[N]]></other>
+    <mandatory><![CDATA[N]]></mandatory>
+    <question_order><![CDATA[0]]></question_order>
+    <language><![CDATA[de]]></language>
+    <scale_id><![CDATA[0]]></scale_id>
+    <same_default><![CDATA[0]]></same_default>
+    <relevance><![CDATA[1]]></relevance>
+    <modulename/>
+   </row>
+   <row>
+    <qid><![CDATA[3519]]></qid>
+    <parent_qid><![CDATA[0]]></parent_qid>
+    <sid><![CDATA[214623]]></sid>
+    <gid><![CDATA[206]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[geschl]]></title>
+    <question><![CDATA[Welches Geschlecht haben Sie?]]></question>
+    <preg/>
+    <help/>
     <other><![CDATA[N]]></other>
     <mandatory><![CDATA[Y]]></mandatory>
     <question_order><![CDATA[1]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
     <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[((214623X12X143.NAOK == "Y"))]]></relevance>
+    <relevance><![CDATA[1]]></relevance>
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[140]]></qid>
+    <qid><![CDATA[3522]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[12]]></gid>
-    <type><![CDATA[G]]></type>
-    <title><![CDATA[geschl]]></title>
-    <question><![CDATA[Angaben zu Ihrem Geschlecht:]]></question>
-    <preg/>
-    <help/>
-    <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
-    <question_order><![CDATA[3]]></question_order>
-    <language><![CDATA[de]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-    <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[1]]></relevance>
-   </row>
-   <row>
-    <qid><![CDATA[141]]></qid>
-    <parent_qid><![CDATA[0]]></parent_qid>
-    <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[F]]></type>
     <title><![CDATA[ECRRD]]></title>
     <question><![CDATA[<p style="text-align:justify;">Die folgenden Aussagen beziehen sich darauf, wie Sie sich in emotional bedeutsamen Partnerschaften fühlen. Von Interesse ist für uns dabei vor allem, <strong>wie Sie <u>im Allgemeinen</u> Partnerschaften erleben</strong>, nicht so sehr, was gerade in einer aktuellen Partnerschaft passiert. Bitte nehmen Sie zu jeder Aussage Stellung, indem sie eine Zahl ankreuzen, um darzustellen, wie sehr Sie der Aussage für sich zustimmen.</p>
@@ -236,13 +251,13 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[142]]></qid>
+    <qid><![CDATA[3573]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[14]]></gid>
+    <gid><![CDATA[211]]></gid>
     <type><![CDATA[Q]]></type>
     <title><![CDATA[code]]></title>
-    <question><![CDATA[<p style="margin:0px 0px 8px;text-align:justify;line-height:normal;"><strong><span style="color:#FFFFFF;"><span style="margin:0px;"><font face="Calibri" size="3">Bitte geben Sie an dieser Stelle ihren persönlichen Code ein, der sich wie folgt zusammensetzt (alles klein geschrieben). Bitte notieren Sie sich unbedingt diesen Code, da er im weiteren Verlauf und auch für das Gewinnspiel Verwendung findet:</font></span></span></strong></p>
+    <question><![CDATA[<p style="margin:0px 0px 8px;text-align:justify;line-height:normal;"><strong><span style="color:#FFFFFF;"><span style="margin:0px;"><font face="Calibri" size="3">Bitte geben Sie an dieser Stelle ihren persönlichen Code ein, der sich wie folgt zusammensetzt (alles klein geschrieben). </font></span></span><span style="color:#FFA07A;"><span style="margin:0px;"><font face="Calibri" size="3">Bitte notieren Sie sich unbedingt diesen Code, da er im weiteren Verlauf und auch für das Gewinnspiel Verwendung findet:</font></span></span></strong></p>
 
 <p style="margin:0px 0px 8px;text-align:justify;line-height:normal;"> </p>
 
@@ -260,13 +275,13 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[143]]></qid>
+    <qid><![CDATA[3611]]></qid>
     <parent_qid><![CDATA[0]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[12]]></gid>
-    <type><![CDATA[Y]]></type>
-    <title><![CDATA[alterjanein]]></title>
-    <question><![CDATA[Sind Sie 18 Jahre oder älter?]]></question>
+    <gid><![CDATA[214]]></gid>
+    <type><![CDATA[L]]></type>
+    <title><![CDATA[einverstand]]></title>
+    <question><![CDATA[Hiermit bestätige ich, dass ich die Eingangsinformationen zu dieser Umfrage gelesen habe und diese akzeptiere.]]></question>
     <preg/>
     <help/>
     <other><![CDATA[N]]></other>
@@ -276,210 +291,6 @@
     <scale_id><![CDATA[0]]></scale_id>
     <same_default><![CDATA[0]]></same_default>
     <relevance><![CDATA[1]]></relevance>
-   </row>
-   <row>
-    <qid><![CDATA[185]]></qid>
-    <parent_qid><![CDATA[0]]></parent_qid>
-    <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[15]]></gid>
-    <type><![CDATA[K]]></type>
-    <title><![CDATA[SVO]]></title>
-    <question><![CDATA[In dieser Aufgabe werden Sie bestimmen, wie Sie bestimmte Geldbeträge zwischen sich selbst und einer anderen Person aufteilen möchten. Im Folgenden werden wir diese andere Person schlicht als "Jemand" bezeichnen. Diese/r Jemand ist eine Person, welche Sie nicht kennen und gegenseitig anonym bleiben wird. All ihre Entscheidungen sind vollumfänglich vertraulich. Für jede der folgenden Fragen, geben Sie bitte jeweils diejenige Geldverteilung an, welche Sie am meisten bevorzugen. Ihre Entscheidungen werden jeweils sowohl Geld für Sie, wie auch für die andere Person generieren. Im unten stehenden Beispiel hat sich eine Person entschieden, das Geld so aufzuteilen, dass sie 50 Euro erhält während die anonyme andere Person 40 Euro erhält. Es gibt keine richtigen und falschen Antworten in dieser Aufgabe, es geht hier ausschliesslich um persönliche Präferenzen. Wenn Sie Ihre Entscheidung gefällt haben, markieren Sie die entsprechende Position auf der Mittellinie und schreiben Sie die entsprechende Geldverteilung auf die Linien rechts. Sie können pro Frage nur eine Position markieren. Wie Sie sehen können beeinflusst Ihre Entscheidungen sowohl den Geldbetrag, welchen Sie erhalten, so wie auch den Geldbetrag, welcher die andere Person erhält.]]></question>
-    <preg/>
-    <help><![CDATA[<script type="text/javascript" charset="utf-8">
-  var consoleLog = console.log;
-  $(main);
-  function main() {
-    //enable console log
-    console.log = consoleLog;
-
-    var sliderContainers = $(".slider-container");
-    
-    sliderContainers.each(function(i, cont){
-      var formGroup = getTheFormGroup(cont);
-      var label = getTheLabel(cont);
-      var values = getTheJSON(cont);
-      var slider = getTheSlider(cont);
-      
-      displayTheValues(values, cont, label, i);
-      createWrappers(formGroup);
-      $(label).hide();
-      
-      if(isDangerColored(cont))
-      	formGroup.css("border", "2px solid #E75041");
-      else
-        formGroup.css("border", "2px solid #000");
-      
-      formGroup.prepend("<div class='top-left'>"+(i+1)+"</div>");
-      
-      formGroup.wrap("<div class='fg-wrapper'></div>");
-      formGroup.after("<div class='right-side-labels'><div class='rslabel'>Sie: <span class='indicator' id='sie-indicator-"+i+"'></span></div><div class='rslabel'>Jemand: <span class='indicator' id='jemand-indicator-"+i+"'></span></div>");
-      
-      $("#sie-indicator-"+i).html(values.up[slider.val() - 1])
-      $("#jemand-indicator-"+i).html(values.down[slider.val() - 1])
-      
-      slider.on('change', sliderOnChangeHandler.bind(null, i, values));
-    });
-    
-    $(".left-wrapper").html("<div class='upper-label'>Sie erhalten:</div><div class='lower-label'>Jemand erhält:</div>");
-    
-    addStyles();
-    
-    /**** Functions ****/
-    function isDangerColored(containerElm){
-      var $formGroup = getTheFormGroup(containerElm);
-      return !$formGroup.find(".control-label")[0] ?  true : false;
-    }
-    
-    function getTheFormGroup(containerElm){
-      return $($(containerElm).parent().parent());
-    }
-    
-    function getTheLabel(containerElm){
-      var $formGroup = getTheFormGroup(containerElm);
-      return isDangerColored(containerElm) ? $formGroup.find(".label-danger")[0] : $formGroup.find(".control-label")[0];
-    }
-    
-    function getTheJSON(containerElm){
-      var labelElm = getTheLabel(containerElm);
-      return JSON.parse($(labelElm).html().trim());
-    }
-    
-    function getTheSlider(containerElm){
-      return $($(containerElm).find("input"));
-    }
-    
-    function createValueContainer(){
-      return $("<div class='valueContainer up-values' style='display: flex; justify-content: space-between'></div>");
-    }
-    
-    function createUpValueContainer(index){
-      return createValueContainer().attr("id", "up-values-"+index);
-    }
-    
-    function createDownValueContainer(index){
-      return createValueContainer().attr("id", "down-values-"+index);
-    }
-    
-    function addValuesToContainer(values, container){
-      values.forEach(function(val){
-        container.append("<div class='boxed-value'>"+val+"</div>");
-      });
-    }
-    
-    function createWrappers($formGroup){
-      //Wrap formGroups children in the right wrapper
-      $formGroup.children().wrapAll("<div class='right-wrapper' style='flex: 9'></div>");
-      //Create the left wrapper
-      $formGroup.prepend("<div class='left-wrapper' style='flex: 1.5; '></div>");      
-    }
-    
-    function displayTheValues(values, contElm, labelElm, index){
-      var upValueContainer = createUpValueContainer(index);
-      var downValueContainer = createDownValueContainer(index);
-      
-      addValuesToContainer(values.up, upValueContainer);
-      addValuesToContainer(values.down, downValueContainer);
-      
-      $(labelElm).after(upValueContainer);
-      $(contElm).parent().after(downValueContainer);
-    }
-    
-    function sliderOnChangeHandler(i, values, e){
-      $("#sie-indicator-"+i).html(values.up[e.value.newValue - 1])
-      $("#jemand-indicator-"+i).html(values.down[e.value.newValue - 1])
-    }
-
-    function styleFormGroups(){
-      var $formGroups = $($(".slider-container").parent().parent().parent());
-      $formGroups.css("padding", "5px 5%");
-      $formGroups.css("display", "flex");
-      $formGroups.css("flex", "9");
-    }
-    
-    function styleLeftSideLabels(){
-      $(".upper-label").css("padding-top","10px");
-      $(".lower-label").css("padding-bottom","10px");
-      
-      $(".left-wrapper").css("display","flex");
-      $(".left-wrapper").css("flex-direction","column");
-      $(".left-wrapper").css("justify-content","space-between");
-      $(".left-wrapper").css("font-weight","bolder");
-    }
-    
-    function styleRightSideLabels(){
-      var $rightSideLabels = $(".right-side-labels");
-      var $rslabel = $(".rslabel");
-      var $indicator = $(".indicator");
-      
-      $rightSideLabels.css("display", "flex");
-      $rightSideLabels.css("flex-direction", "column");
-      $rightSideLabels.css("justify-content","space-between");
-      $rightSideLabels.css("padding","15px 0px 25px 30px");
-      $rightSideLabels.css("font-size", "20px")
-      
-      $rslabel.css("border-bottom", "1px solid #000");
-      $rslabel.css("display", "flex");
-      $rslabel.css("justify-content", "space-between");
-      
-      $indicator.css("font-size", "25px");
-      $indicator.css("font-weight", "bolder");
-    }
-    
-    function styleBoxes(){
-      var $boxes = $(".boxed-value");
-      $boxes.css("border", "1px solid #000");
-      $boxes.css ("width", "8%");
-      $boxes.css ("height", "40px");
-      $boxes.css ("display", "flex");
-      $boxes.css ("justify-content", "center");
-      $boxes.css ("align-items", "center");
-    }    
-    
-    function addStyles(){
-      styleFormGroups();
-      styleRightSideLabels();    
-      styleLeftSideLabels();
-      styleBoxes();
-      
-      $("head").append(
-        "<style>" + 
-        "  .top-left{" +
-        "    position: absolute;" +
-        "    top: 0;" +
-        "    left: 0;" +
-        "    border-right: 1px solid #000;" + 
-        "    border-bottom: 1px solid #000;" + 
-        "    padding: 5px 0.5%;" + 
-        "  }" +
-        "  @media (max-width: 800px){" +
-        "    .left-wrapper{" +
-        "      font-size: 10px;" +
-        "    }" +
-        "    .boxed-value{" +
-        "      font-size: 8px;" +
-        "    }" +
-        "    .top-left{" +
-        "      font-size: 10px;" +
-        "      padding: 2.5px 0.5%;" + 
-        "    }" +
-        "  }" +
-        "</style>"                       
-      );
-      
-      $(".form-group").addClass("col-md-10");
-      $(".right-side-labels").addClass("col-md-2");      
-    }
-  }
-</script>]]></help>
-    <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[Y]]></mandatory>
-    <question_order><![CDATA[1]]></question_order>
-    <language><![CDATA[de]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-    <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[1]]></relevance>
-    <modulename/>
    </row>
   </rows>
  </questions>
@@ -505,16 +316,15 @@
   </fields>
   <rows>
    <row>
-    <qid><![CDATA[144]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3523]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD01]]></title>
     <question><![CDATA[Ich habe Angst, die Liebe meines Partners/meiner Partnerin zu verlieren.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[1]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -523,16 +333,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[145]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3524]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD19]]></title>
     <question><![CDATA[Ich ziehe es vor, einem Partner/einer Partnerin nicht zu zeigen, wie ich in meinem Innersten fühle.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[2]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -541,16 +350,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[146]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3525]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD02]]></title>
     <question><![CDATA[Ich mache mir oft Sorgen, dass mein Partner/meine Partnerin nicht bei mir bleiben will.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[3]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -559,16 +367,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[147]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3526]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD20]]></title>
     <question><![CDATA[Ich fühle mich wohl damit, meine privaten Gedanken und Gefühle mit meinem Partner/meiner Partnerin zu teilen.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[4]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -577,16 +384,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[148]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3527]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD03]]></title>
     <question><![CDATA[Ich mache mir oft Sorgen, dass mein Partner/meine Partnerin mich nicht wirklich liebt.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[5]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -595,16 +401,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[149]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3528]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD21]]></title>
     <question><![CDATA[Es fällt mir schwer, mich auf meinen Partner/meine Partnerin zu verlassen.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[6]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -613,16 +418,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[150]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3529]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD06]]></title>
     <question><![CDATA[Ich mache mir häufig Sorgen um meine Beziehungen.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[7]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -631,16 +435,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[151]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3530]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD22]]></title>
     <question><![CDATA[Ich fühle mich sehr wohl damit, meinem Partner/meiner Partnerin nahe zu sein.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[8]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -649,16 +452,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[152]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3531]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD05]]></title>
     <question><![CDATA[Ich wünsche mir oft, dass die Gefühle meines Partners/meiner Partnerin mir gegenüber genauso stark sind, wie meine Gefühle für ihn/sie.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[9]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -667,16 +469,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[153]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3532]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD23]]></title>
     <question><![CDATA[Ich fühle mich unwohl, mich meinem Partner/meiner Partnerin zu öffnen.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[10]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -685,16 +486,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[154]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3533]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD04]]></title>
     <question><![CDATA[Ich befürchte, dass ich meinem Partner/meiner Partnerin weniger bedeute, als er/sie mir.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[11]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -703,16 +503,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[155]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3534]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD24]]></title>
     <question><![CDATA[Ich ziehe es vor, meinem Partner/meiner Partnerin nicht nahe zu sein.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[12]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -721,16 +520,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[156]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3535]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD07]]></title>
     <question><![CDATA[Wenn mein Partner/meine Partnerin nicht in meiner Nähe ist, befürchte ich häufig, er/sie könnte sich für jemand anderen interessieren.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[13]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -739,16 +537,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[157]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3536]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD25]]></title>
     <question><![CDATA[Mir wird unwohl, wenn ein Partner/eine Partnerin mir sehr nahe sein will.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[14]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -757,16 +554,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[158]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3537]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD08]]></title>
     <question><![CDATA[Wenn ich in einer Partnerschaft Gefühle zeige, habe ich Angst, dass mein Partner/meine Partnerin nicht ebenso für mich fühlt.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[15]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -775,16 +571,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[159]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3538]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD26]]></title>
     <question><![CDATA[Mir fällt es relativ leicht, meinem Partner/meiner Partnerin nahe zu kommen.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[16]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -793,16 +588,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[160]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3539]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD09]]></title>
     <question><![CDATA[Ich mache mir selten Sorgen darüber, dass mein Partner/meine Partnerin mich verlässt.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[17]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -811,16 +605,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[161]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3540]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD33]]></title>
     <question><![CDATA[Ich fühle mich wohl dabei, mich auf meinen Partner/meine Partnerin zu verlassen.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[18]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -829,16 +622,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[162]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3541]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD10]]></title>
     <question><![CDATA[Mein Partner/meine Partnerin bringt mich dazu, an mir selbst zu zweifeln.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[19]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -847,16 +639,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[163]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3542]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD28]]></title>
     <question><![CDATA[Normalerweise bespreche ich Probleme und Anliegen mit meinem Partner/meiner Partnerin.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[20]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -865,16 +656,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[164]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3543]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD11]]></title>
     <question><![CDATA[Ich mache mir selten Sorgen, verlassen zu werden.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[21]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -883,16 +673,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[165]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3544]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD29]]></title>
     <question><![CDATA[Es hilft mir, mich in schwierigen Zeiten an meinen Partner/meine Partnerin zu wenden.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[22]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -901,16 +690,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[166]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3545]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD12]]></title>
     <question><![CDATA[Ich habe den Eindruck, dass mein Partner/meine Partnerin nicht so viel Nähe möchte wie ich.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[23]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -919,16 +707,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[167]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3546]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD30]]></title>
     <question><![CDATA[Ich erzähle meinem Partner/meiner Partnerin so ziemlich alles.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[24]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -937,16 +724,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[168]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3547]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD13]]></title>
     <question><![CDATA[Manchmal ändern Partner/Partnerinnen ihre Gefühle für mich ohne ersichtlichen Grund.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[25]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -955,16 +741,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[169]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3548]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD31]]></title>
     <question><![CDATA[Ich bespreche vieles mit meinem Partner/meiner Partnerin.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[26]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -973,16 +758,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[170]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3549]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD14]]></title>
     <question><![CDATA[Mein Bedürfnis nach großer Nähe schreckt andere Menschen manchmal ab.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[27]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -991,16 +775,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[171]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3550]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD32]]></title>
     <question><![CDATA[Ich bin nervös, wenn mein Partner/meine Partnerin mir zu nahe kommt.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[28]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -1009,16 +792,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[172]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3551]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD15]]></title>
     <question><![CDATA[Ich habe Angst, dass sobald ein Partner/eine Partnerin mich näher kennen lernt, er/sie mich nicht so mag, wie ich wirklich bin.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[29]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -1027,16 +809,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[173]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3552]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD27]]></title>
     <question><![CDATA[Es fällt mir nicht schwer, meinem Partner/meiner Partnerin nahe zu kommen.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[30]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -1045,16 +826,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[174]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3553]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD16]]></title>
     <question><![CDATA[Es macht mich wütend, dass ich von meinem Partner/meiner Partnerin nicht die Zuneigung und Unterstützung bekomme, die ich brauche.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[31]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -1063,16 +843,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[175]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3554]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD34]]></title>
     <question><![CDATA[Es fällt mir leicht, mich auf meinen Partner/meine Partnerin zu verlassen.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[32]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -1081,16 +860,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[176]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3555]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD17]]></title>
     <question><![CDATA[Ich befürchte, dass ich nicht an andere Leute heranreiche oder im Vergleich mit ihnen schlecht abschneide.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[33]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -1099,16 +877,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[177]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3556]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD35]]></title>
     <question><![CDATA[Es fällt mir leicht, meinem Partner/meiner Partnerin gegenüber liebevoll zu sein.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[34]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -1117,16 +894,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[178]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3557]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD18]]></title>
     <question><![CDATA[Mein Partner/meine Partnerin scheint mich nur dann wahrzunehmen, wenn ich wütend bin.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[35]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -1135,16 +911,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[179]]></qid>
-    <parent_qid><![CDATA[141]]></parent_qid>
+    <qid><![CDATA[3558]]></qid>
+    <parent_qid><![CDATA[3522]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[13]]></gid>
+    <gid><![CDATA[207]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[ECRRD36]]></title>
     <question><![CDATA[Mein Partner/meine Partnerin versteht mich und meine Bedürfnisse wirklich.]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[36]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -1153,16 +928,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[180]]></qid>
-    <parent_qid><![CDATA[142]]></parent_qid>
+    <qid><![CDATA[3574]]></qid>
+    <parent_qid><![CDATA[3573]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[14]]></gid>
+    <gid><![CDATA[211]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[1]]></title>
     <question><![CDATA[1.	erster Buchstabe Ihres Geburtsmonats („a“ für August)]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[1]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -1171,16 +945,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[181]]></qid>
-    <parent_qid><![CDATA[142]]></parent_qid>
+    <qid><![CDATA[3575]]></qid>
+    <parent_qid><![CDATA[3573]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[14]]></gid>
+    <gid><![CDATA[211]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[2]]></title>
     <question><![CDATA[2.	die ersten zwei Ziffern Ihres Geburtstages („06“ für 06.11.2017)]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[2]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -1189,16 +962,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[182]]></qid>
-    <parent_qid><![CDATA[142]]></parent_qid>
+    <qid><![CDATA[3576]]></qid>
+    <parent_qid><![CDATA[3573]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[14]]></gid>
+    <gid><![CDATA[211]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[3]]></title>
     <question><![CDATA[3.	der erste Buchstabe des Vornamens von Vater („o“ für Otto)]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[3]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -1207,16 +979,15 @@
     <modulename/>
    </row>
    <row>
-    <qid><![CDATA[183]]></qid>
-    <parent_qid><![CDATA[142]]></parent_qid>
+    <qid><![CDATA[3577]]></qid>
+    <parent_qid><![CDATA[3573]]></parent_qid>
     <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[14]]></gid>
+    <gid><![CDATA[211]]></gid>
     <type><![CDATA[T]]></type>
     <title><![CDATA[4]]></title>
     <question><![CDATA[4.	der erste Buchstabe des Vornamens von Mutter („p“ für Petra)]]></question>
     <help/>
     <other><![CDATA[N]]></other>
-    <mandatory><![CDATA[N]]></mandatory>
     <question_order><![CDATA[4]]></question_order>
     <language><![CDATA[de]]></language>
     <scale_id><![CDATA[0]]></scale_id>
@@ -1224,167 +995,8 @@
     <relevance><![CDATA[1]]></relevance>
     <modulename/>
    </row>
-   <row>
-    <qid><![CDATA[186]]></qid>
-    <parent_qid><![CDATA[185]]></parent_qid>
-    <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[15]]></gid>
-    <type><![CDATA[K]]></type>
-    <title><![CDATA[SQ001]]></title>
-    <question><![CDATA[{ "up": [85, 85, 85, 85, 85, 85, 85, 85, 85], "down": [85, 76, 68, 59, 50, 41, 33, 24, 15] }]]></question>
-    <other><![CDATA[N]]></other>
-    <question_order><![CDATA[1]]></question_order>
-    <language><![CDATA[de]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-    <same_default><![CDATA[0]]></same_default>
-    <relevance><![CDATA[1]]></relevance>
-    <modulename/>
-   </row>
-   <row>
-    <qid><![CDATA[187]]></qid>
-    <parent_qid><![CDATA[185]]></parent_qid>
-    <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[15]]></gid>
-    <type><![CDATA[T]]></type>
-    <title><![CDATA[SQ002]]></title>
-    <question><![CDATA[{ "up": [85, 87, 89, 91, 93, 94, 96, 98, 100], "down": [15, 19, 24, 28, 33, 37, 41, 46, 50] }]]></question>
-    <other><![CDATA[N]]></other>
-    <question_order><![CDATA[2]]></question_order>
-    <language><![CDATA[de]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-    <same_default><![CDATA[0]]></same_default>
-    <relevance/>
-    <modulename/>
-   </row>
-   <row>
-    <qid><![CDATA[188]]></qid>
-    <parent_qid><![CDATA[185]]></parent_qid>
-    <sid><![CDATA[214623]]></sid>
-    <gid><![CDATA[15]]></gid>
-    <type><![CDATA[T]]></type>
-    <title><![CDATA[SQ003]]></title>
-    <question><![CDATA[{ "up": [50, 54, 59, 63, 68, 72, 76, 81, 85], "down": [100, 98, 96, 94, 93, 91, 89, 87, 85] }]]></question>
-    <other><![CDATA[N]]></other>
-    <question_order><![CDATA[3]]></question_order>
-    <language><![CDATA[de]]></language>
-    <scale_id><![CDATA[0]]></scale_id>
-    <same_default><![CDATA[0]]></same_default>
-    <relevance/>
-    <modulename/>
-   </row>
   </rows>
  </subquestions>
- <question_attributes>
-  <fields>
-   <fieldname>qid</fieldname>
-   <fieldname>attribute</fieldname>
-   <fieldname>value</fieldname>
-   <fieldname>language</fieldname>
-  </fields>
-  <rows>
-   <row>
-    <qid><![CDATA[139]]></qid>
-    <attribute><![CDATA[max_num_value_n]]></attribute>
-    <value><![CDATA[125]]></value>
-   </row>
-   <row>
-    <qid><![CDATA[139]]></qid>
-    <attribute><![CDATA[min_num_value_n]]></attribute>
-    <value><![CDATA[18]]></value>
-   </row>
-   <row>
-    <qid><![CDATA[139]]></qid>
-    <attribute><![CDATA[num_value_int_only]]></attribute>
-    <value><![CDATA[1]]></value>
-   </row>
-   <row>
-    <qid><![CDATA[185]]></qid>
-    <attribute><![CDATA[slider_accuracy]]></attribute>
-    <value><![CDATA[1]]></value>
-   </row>
-   <row>
-    <qid><![CDATA[185]]></qid>
-    <attribute><![CDATA[slider_layout]]></attribute>
-    <value><![CDATA[1]]></value>
-   </row>
-   <row>
-    <qid><![CDATA[185]]></qid>
-    <attribute><![CDATA[slider_max]]></attribute>
-    <value><![CDATA[9]]></value>
-   </row>
-   <row>
-    <qid><![CDATA[185]]></qid>
-    <attribute><![CDATA[slider_middlestart]]></attribute>
-    <value><![CDATA[1]]></value>
-   </row>
-   <row>
-    <qid><![CDATA[185]]></qid>
-    <attribute><![CDATA[slider_min]]></attribute>
-    <value><![CDATA[1]]></value>
-   </row>
-  </rows>
- </question_attributes>
- <quota>
-  <fields>
-   <fieldname>id</fieldname>
-   <fieldname>sid</fieldname>
-   <fieldname>name</fieldname>
-   <fieldname>qlimit</fieldname>
-   <fieldname>action</fieldname>
-   <fieldname>active</fieldname>
-   <fieldname>autoload_url</fieldname>
-  </fields>
-  <rows>
-   <row>
-    <id><![CDATA[4]]></id>
-    <sid><![CDATA[214623]]></sid>
-    <name><![CDATA[Minimum age]]></name>
-    <qlimit><![CDATA[0]]></qlimit>
-    <action><![CDATA[1]]></action>
-    <active><![CDATA[1]]></active>
-    <autoload_url><![CDATA[0]]></autoload_url>
-   </row>
-  </rows>
- </quota>
- <quota_members>
-  <fields>
-   <fieldname>id</fieldname>
-   <fieldname>sid</fieldname>
-   <fieldname>qid</fieldname>
-   <fieldname>quota_id</fieldname>
-   <fieldname>code</fieldname>
-  </fields>
-  <rows>
-   <row>
-    <id><![CDATA[6]]></id>
-    <sid><![CDATA[214623]]></sid>
-    <qid><![CDATA[143]]></qid>
-    <quota_id><![CDATA[4]]></quota_id>
-    <code><![CDATA[N]]></code>
-   </row>
-  </rows>
- </quota_members>
- <quota_languagesettings>
-  <fields>
-   <fieldname>quotals_id</fieldname>
-   <fieldname>quotals_quota_id</fieldname>
-   <fieldname>quotals_language</fieldname>
-   <fieldname>quotals_name</fieldname>
-   <fieldname>quotals_message</fieldname>
-   <fieldname>quotals_url</fieldname>
-   <fieldname>quotals_urldescrip</fieldname>
-  </fields>
-  <rows>
-   <row>
-    <quotals_id><![CDATA[4]]></quotals_id>
-    <quotals_quota_id><![CDATA[4]]></quotals_quota_id>
-    <quotals_language><![CDATA[de]]></quotals_language>
-    <quotals_message><![CDATA[Vielen Dank, dass Sie sich für diese Umfrage Zeit genommen haben. Aus verschiedenen Gründen ist eine Studienteilnahme erst ab 18 Jahren möglich.]]></quotals_message>
-    <quotals_url/>
-    <quotals_urldescrip/>
-   </row>
-  </rows>
- </quota_languagesettings>
  <surveys>
   <fields>
    <fieldname>sid</fieldname>
@@ -1448,7 +1060,7 @@
     <sid><![CDATA[214623]]></sid>
     <admin><![CDATA[Johannes Laferton]]></admin>
     <adminemail><![CDATA[j.laferton@psychologische-hochschule.de]]></adminemail>
-    <anonymized><![CDATA[Y]]></anonymized>
+    <anonymized><![CDATA[N]]></anonymized>
     <faxto/>
     <format><![CDATA[G]]></format>
     <savetimings><![CDATA[N]]></savetimings>
@@ -1459,7 +1071,7 @@
     <usecookie><![CDATA[Y]]></usecookie>
     <allowregister><![CDATA[N]]></allowregister>
     <allowsave><![CDATA[N]]></allowsave>
-    <autonumber_start><![CDATA[5]]></autonumber_start>
+    <autonumber_start><![CDATA[0]]></autonumber_start>
     <autoredirect><![CDATA[N]]></autoredirect>
     <allowprev><![CDATA[N]]></allowprev>
     <printanswers><![CDATA[N]]></printanswers>
@@ -1533,7 +1145,7 @@
 
 <p><span style="color:#000000;"><strong>Titel der Studie </strong></span></p>
 
-<p style="text-align:justify;"><span style="color:#000000;">Herzlich willkommen zur Untersuchung im Rahmen meiner Masterarbeit. In der Arbeit interessiere ich mich dafür, wie Erwachsene mit unbekannten Anderen über das Internet interagieren/das Ziel ist zu untersuchen, wie vergangene Bindungs- und Beziehungserfahrungen sich darauf auswirken, wie wir „Likes“ auf Facebook vergeben und wie wir auf die Vergabe von „Likes“ auf Facebook reagieren.</span></p>
+<p style="text-align:justify;"><span style="color:#000000;">Herzlich willkommen zur Untersuchung im Rahmen meiner Masterarbeit. In der Arbeit interessiere ich mich dafür, wie Erwachsene mit unbekannten Anderen über das Internet interagieren und welche Rolle dabei vergangene und bestehende Beziehungserfahrungen spielen.</span></p>
 
 <p style="text-align:justify;"><span style="color:#000000;">Ich danke Ihnen für Ihr Interesse an dieser Studie.</span></p>
 
